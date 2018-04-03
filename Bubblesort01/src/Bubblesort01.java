@@ -1,8 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Bubblesort02 {
-	
+public class Bubblesort01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -26,7 +25,7 @@ public class Bubblesort02 {
 		for (int i = 0; i < a.length - 1; i++) {
 			boolean checked = false;
 			for (int j = 0; j < a.length -i -1; j++) {
-				if (a[j] > a[j + 1]) {
+				if (a[j] < a[j + 1]) {
 					int t = a[j];
 					a[j] = a[j + 1];
 					a[j + 1] = t;

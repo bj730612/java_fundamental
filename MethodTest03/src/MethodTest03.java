@@ -18,6 +18,7 @@ public class MethodTest03 {
 		System.out.print("정수 입력 : ");
 		int b = sc.nextInt();
 		
+		// 메소드 사용 했을때
 		double result = power(a, b);
 		System.out.println(a + "의 " + b + "제곱은 " + result + "입니다.");
 		
@@ -27,8 +28,6 @@ public class MethodTest03 {
 			result *= a;
 		}
 		System.out.println(a + "의 " + b + "제곱은 " + result + "입니다.");*/
-		
-		// 메소드 사용 했을때
 		
 		sc.close();
 		
